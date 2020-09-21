@@ -1,0 +1,17 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head :: headFragment }" />
+    <attr sel="#game-title" th:text="#{game.title}" />
+    <attr sel="#game-over" th:text="#{game.over}" />
+
+    <attr sel="#result-message" th:text="${__${T(com.mariobanay.util.AttributeNames).RESULT_MESSAGE}__}" />
+    <attr sel="#restart"
+          th:href="@{__${T(com.mariobanay.util.GameMappings).RESTART}__}" />
+<!--          th:text="#{game.play}" />-->
+
+
+    <attr sel="#home"
+          th:href="@{__${T(com.mariobanay.util.GameMappings).HOME}__}" />
+<!--          th:text="#{game.home}" />-->
+    <attr sel="#footerId" th:replace="~{fragments/footer :: footer}" />
+
+</thlogic>

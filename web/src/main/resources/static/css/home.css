@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+/*.html {*/
+/*    min-height: 100vh;*/
+/*}*/
+
+html, body, .row {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.start{
+    font-size:7em;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.start:hover{
+    font-size: 9em;
+
+}
+
+/*html {*/
+/*    font-size: calc(1em + 2vw);*/
+/*}*/
+
+/*.container {*/
+/*    text-align: center;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.child {*/
+/*    position: absolute;*/
+/*    width: 80%;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+
+/*footer {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 2.5rem;*/
+/*}*/
+
+/*.input-label {*/
+/*    vertical-align: middle;*/
+/*    font-size: calc(1em + 2vw);*/
+
+/*}*/
+
+/*input[type="number"]*/
+/*{*/
+/*    font-size: calc(1em + 0.5vw);*/
+/*    width: 8vw;*/
+/*    vertical-align: middle;*/
+
+/*}*/
+
+/*input[type="submit"]*/
+/*{*/
+/*    font-size: calc(1em + 0.5vw);*/
+/*    vertical-align: middle;*/
+/*}*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
